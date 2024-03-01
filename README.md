@@ -1,6 +1,6 @@
 # [Foundry](https://github.com/z0r0z/zenplate)  [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL-black.svg)](https://opensource.org/license/agpl-v3/) [![solidity](https://img.shields.io/badge/solidity-%5E0.8.19-black)](https://docs.soliditylang.org/en/v0.8.19/) [![Foundry](https://img.shields.io/badge/Built%20with-Foundry-000000.svg)](https://getfoundry.sh/) ![tests](https://github.com/z0r0z/zenplate/actions/workflows/ci.yml/badge.svg)
 
-This Repo is an example of Fuzzing Testing.
+This Repo is an example of Fuzzing Testing using Foundry.
 Forge supports property based testing.
 Property-based testing is a way of testing general behaviors as opposed to isolated scenarios.
 Let’s examine what that means by writing a unit test, finding the general property we are testing for, and converting it to a property-based test instead
