@@ -1,13 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
-
-// Importing necessary contracts
 import "forge-std/Test.sol";
 import "../contracts/Fuzzer.sol";
-
-// Contract for testing the Fuzzer contract
 contract FuzzerTest is Test {
-    Fuzzer public fuzzer; // Instance of the Fuzzer contract
+    Fuzzer public fuzzer;
 
     // Setting up the initial conditions before each test
     function setUp() public {
